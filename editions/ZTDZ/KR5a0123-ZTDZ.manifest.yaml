@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0123/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0123/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝陰符經註
+  date: '2015-08-28 23:37:56.633029'
+  source:
+    repository: kanripo
+    path: KR5a0123
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0123_000-ZTDZ.yaml, hash: 'sha256:f0abf2064a8c94e550093ff26d3af3377195f9e5fd03b2cea38da93d334ad982'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0123_000-ZTDZ.markers.yaml, hash: 'sha256:60c922a143b289153c9624c558816c7d3091032e6b22b3996dce5db28a5813eb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0123_SJB_000-020817b
+    span:
+    - body
+    - 0
+    - 4673
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3f5fd44ddc67ec5c286f048c1b523b48c06df3a3750921b649ce298a350e2f4c
